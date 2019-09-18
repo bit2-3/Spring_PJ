@@ -18,7 +18,7 @@
 </script>
 </head>
 <body>
-	<form action="BoardModifyAction.bo" method="post" name="modifyform">
+	<form action="" method="post" name="modifyform">
 		<input type="hidden" name="BOARD_NUM"<%-- value=<%=board.getBOARD_NUM()%> --%>>
 		<table cellpadding="0" cellspacing="0">
 			<tr align="center" valign="middle">

@@ -11,7 +11,7 @@
 </head>
 <body>
 	<form name="deleteForm"
-		action="./BoardDeleteAction.bo?num=<%-- <%=num%> --%>" method="post">
+		<%-- action="./BoardDeleteAction.bo?num=<%=num%>" --%> method="post">
 		<table border=1>
 			<tr>
 				<td><font size=2>글 비밀번호 : </font></td>

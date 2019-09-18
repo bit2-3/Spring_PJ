@@ -12,7 +12,7 @@
 </script>
 </head>
 <body>
-	<form action="./BoardAddAction.bo" method="post"
+	<form action="" method="post"
 		enctype="multipart/form-data" name="boardform">
 		<table cellpadding="0" cellspacing="0">
 			<tr align="center" valign="middle">

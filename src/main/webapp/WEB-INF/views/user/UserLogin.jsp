@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1 align="center">Login</h1>
-	<form action="LoginAction.in" name=" LoginForm" method="post">
+	<form action="" name="LoginForm" method="post">
 		<table align="center">
 			<tr>
 				<td align="center">아이디</td>
