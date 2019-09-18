@@ -11,7 +11,7 @@
      http://www.springframework.org/schema/mvc
   http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-	<context:component-scan base-package="pack01" />
+	<context:component-scan base-package="controller" />
 
 	<mvc:annotation-driven />
 	<mvc:default-servlet-handler />
