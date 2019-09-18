@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Board Read</title>
+<title>Board Write</title>
 <script language="javascript">
 	function addboard() {
 		boardform.submit();
@@ -12,11 +12,11 @@
 </script>
 </head>
 <body>
-	<form action="" method="post"
-		enctype="multipart/form-data" name="boardform">
+	<form action="" method="post" enctype="multipart/form-data"
+		name="boardform">
 		<table cellpadding="0" cellspacing="0">
 			<tr align="center" valign="middle">
-				<td colspan="5">게시판 글 읽기</td>
+				<td colspan="5">게시판 글 작성</td>
 			</tr>
 			<tr>
 				<td style="font-family: 돋음; font-size: 12" height="16">
@@ -46,24 +46,11 @@
 				<td><textarea name="BOARD_CONTENT" cols="67" rows="15"></textarea>
 				</td>
 			</tr>
-			<tr>
-				<td style="font-family: 돋음; font-size: 12">
-					<div align="center">파일 첨부</div>
-				</td>
-				<td><input name="BOARD_FILE" type="file" /></td>
-			</tr>
-			<tr bgcolor="cccccc">
-				<td colspan="2" style="height: 1px;"></td>
-			</tr>
-			<tr>
-				<td colspan="2">&nbsp;</td>
-			</tr>
 			<tr align="center" valign="middle">
 				<td colspan="5"><a href="javascript:addboard()">[등록]</a>&nbsp;&nbsp;
 					<a href="javascript:history.go(-1)">[뒤로]</a></td>
 			</tr>
 		</table>
 	</form>
-
 </body>
 </html>

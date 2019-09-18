@@ -5,6 +5,7 @@
 <title>메인 페이지</title>
 </head>
 <body>
-
+<a href="/board">board</a>
+<a href="/user">user</a>
 </body>
 </html>

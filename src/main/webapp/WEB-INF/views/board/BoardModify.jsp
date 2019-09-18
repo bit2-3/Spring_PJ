@@ -22,7 +22,7 @@
 		<input type="hidden" name="BOARD_NUM"<%-- value=<%=board.getBOARD_NUM()%> --%>>
 		<table cellpadding="0" cellspacing="0">
 			<tr align="center" valign="middle">
-				<td colspan="5">MVC 게시판</td>
+				<td colspan="5">게시판 글 수정</td>
 			</tr>
 			<tr>
 				<td height="16" style="font-family: 돋음; font-size: 12">

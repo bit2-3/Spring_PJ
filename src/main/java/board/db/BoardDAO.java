@@ -1,6 +1,6 @@
 package board.db;
 
-// DB 연결
+// DB 연동
 public class BoardDAO {
 
 }

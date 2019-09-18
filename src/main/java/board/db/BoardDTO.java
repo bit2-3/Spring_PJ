@@ -1,6 +1,6 @@
 package board.db;
 
-// 모델
+// 데이터
 public class BoardDTO {
 
 }

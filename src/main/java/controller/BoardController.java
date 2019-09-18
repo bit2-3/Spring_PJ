@@ -4,7 +4,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/board/*")
+@RequestMapping("/board")
 public class BoardController {
 
+	@RequestMapping("/boardList")
+	public String boardList() {
+		return "/board/BoardList";
+	}
+
+	@RequestMapping("/boardWrite")
+	public String boardWrite() {
+		return "/board/BoardWrite";
+	}
 }
