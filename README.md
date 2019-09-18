@@ -2,18 +2,19 @@
 url | 설명 |
 ------- | ------- |
 메인 |  |
-http://218.39.221.88:8080/index.jsp | 메인 페이지
+http://218.39.221.88:8080/ | 메인 페이지
 유저 |  |
-http://218.39.221.88:8080/user/join.jsp |  유저 생성
-http://218.39.221.88:8080/user/login.jsp | 유저 로그인
-http://218.39.221.88:8080/user/logout.jsp | 유저 로그아웃 |
-http://218.39.221.88:8080/user/edit.jsp | 유저 정보 수정(+ 삭제)
+http://218.39.221.88:8080/user/join |  유저 생성
+http://218.39.221.88:8080/user/login | 유저 로그인
+http://218.39.221.88:8080/user/logout | 유저 로그아웃 |
+http://218.39.221.88:8080/user/edit | 유저 정보 수정(+ 삭제)
+http://218.39.221.88:8080/user/find | 유저 정보 찾기
 게시판 |  |
-http://218.39.221.88:8080/board/list.jsp?page=1 | 글 목록(페이징)
-http://218.39.221.88:8080/board/detail.jsp?page=1&no=1 | 글 자세히
-http://218.39.221.88:8080/board/edit.jsp?page=1&no=1&mode=write | 글 생성
-http://218.39.221.88:8080/board/edit.jsp?page=1&no=1&mode=modify | 글 수정
-http://218.39.221.88:8080/board/delete.jsp?page=1&no=1 | 글 삭제
+http://218.39.221.88:8080/board/list?page=1 | 글 목록(페이징)
+http://218.39.221.88:8080/board/detail?page=1&no=1 | 글 자세히
+http://218.39.221.88:8080/board/write?page=1&no=1 | 글 생성
+http://218.39.221.88:8080/board/edit?page=1&no=1 | 글 수정
+http://218.39.221.88:8080/board/delete?page=1&no=1 | 글 삭제
 페이지 에러 |  |
 http://218.39.221.88:8080/error/401 | 접근 권한 오류
 http://218.39.221.88:8080/error/403 | 접근 금지

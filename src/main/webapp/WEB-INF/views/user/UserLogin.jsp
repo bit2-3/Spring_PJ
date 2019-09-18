@@ -21,8 +21,8 @@
 			</tr>
 			<tr>
 				<td><button align="center" type="submit" name="userLogin">로그인</button></td>
-				<td><button align="center" type="button" name="userJoin" onclick="location.href='/user/userJoin'">회원가입</button></td>
-				<td><button align="center" type="button" name="userFind" onclick="location.href='/user/userFind'">아이디 비밀번호 찾기</button></td>
+				<td><button align="center" type="button" name="userJoin" onclick="location.href='/user/join'">회원가입</button></td>
+				<td><button align="center" type="button" name="userFind" onclick="location.href='/user/find'">아이디 비밀번호 찾기</button></td>
 			</tr>
 		</table>
 	</form>

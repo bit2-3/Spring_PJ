@@ -127,7 +127,7 @@
 			</td>
 		</tr>
 		<tr align="right">
-			<td colspan="5"><a href="./boardWrite">[글쓰기]</a></td>
+			<td colspan="5"><a href="./write">[글쓰기]</a></td>
 		</tr>
 	</table>
 </body>

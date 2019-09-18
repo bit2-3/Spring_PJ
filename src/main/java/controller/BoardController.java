@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/board")
 public class BoardController {
 
-	@RequestMapping("/boardList")
+	@RequestMapping("/list")
 	public String boardList() {
 		return "/board/BoardList";
 	}
 
-	@RequestMapping("/boardWrite")
+	@RequestMapping("/write")
 	public String boardWrite() {
 		return "/board/BoardWrite";
 	}

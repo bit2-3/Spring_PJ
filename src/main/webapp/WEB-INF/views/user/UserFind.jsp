@@ -7,7 +7,7 @@
 <title>User Find</title>
 </head>
 <body>
-<button align="center" type="button" name="signIn" onclick="location.href='/user/userFindId'">아이디 찾기</button>
-<button align="center" type="button" name="signIn" onclick="location.href='/user/userFindPw'">비밀번호 찾기</button>
+<button align="center" type="button" name="signIn" onclick="location.href='/user/findId'">아이디 찾기</button>
+<button align="center" type="button" name="signIn" onclick="location.href='/user/findPw'">비밀번호 찾기</button>
 </body>
 </html>

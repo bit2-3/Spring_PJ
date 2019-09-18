@@ -176,6 +176,5 @@
 			<input type="reset" value="다시 입력">
 		</p>
 	</form>
-
 </body>
 </html>
