@@ -16,5 +16,5 @@ http://13.209.215.69:8888/user/findPwPage | 유저 비밀번호 찾기
 http://13.209.215.69:8888/board/list?page=1 | 글 목록(페이징)
 http://13.209.215.69:8888/board/detail?no=1 | 글 자세히
 http://13.209.215.69:8888/board/writePage | 글 생성
-http:/13.209.215.69:8888/board/editPage?no=1 | 글 수정
+http://13.209.215.69:8888/board/editPage?no=1 | 글 수정
 http://13.209.215.69:8888/board/delete?no=1 | 글 삭제
